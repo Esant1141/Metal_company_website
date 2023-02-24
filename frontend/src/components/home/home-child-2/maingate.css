@@ -1,0 +1,55 @@
+
+.cards-row {
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color:black;
+  background-color: rgb(250, 250, 250) !important;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .cards-row {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:black;
+    background-color: rgb(250, 250, 250) !important;
+  }
+}
+  
+.card-head{
+  font-size: 22px;
+  font-weight: 700;
+}
+.div-cards1{
+  padding-top: 150px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.313);
+}
+.card-icon {
+background-color: #f44647;
+width: 100px;
+height: 100px;
+color: white;
+padding-top: 30px;
+margin: auto;
+}
+.card-icon:hover{
+background-color: rgb(50, 50, 50);
+}
+.card-menu {
+padding-top: 20px;
+}
+@media screen and (min-width: 353px) and (max-width: 1200px) {
+.cards-row {
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+}

@@ -1,0 +1,18 @@
+.row-home-four{
+    padding: 40px 80px 40px 80px;
+    background-color: rgb(250, 250, 250);
+    font-size: 18px;
+}
+.p-four{
+    background-color: white;
+    padding: 30px 30px 30px 30px !important;
+}
+@media screen and (min-width: 300px) and (max-width: 990px) {
+    .row-home-four{
+        padding: 10px 20px 10px 20px !important;
+    }
+    .p-four{
+        background-color: white;
+        padding: 20px 20px 20px 20px !important;
+    }
+}

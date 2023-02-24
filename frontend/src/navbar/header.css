@@ -1,0 +1,263 @@
+* {
+  font-family: "Segoe UI", Arial, Helvetica, Sans Serif;
+}
+.navbar-light .navbar-toggler-icon {
+  display: block;
+}
+.brand-name {
+  color: #f44647;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.nav-link {
+  font-weight: 600 !important;
+  margin-left: 29px;
+}
+.nav-link:hover {
+  color: #f44647 !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 990px) {
+  /* .navbar-light .navbar-nav .nav-link{
+    background-color: #f44647 !important;
+    color:white;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    background-color: #333333 !important;
+    color:white;
+  }
+  .navbar-light .navbar-toggler-icon{
+    display:block !important;
+    background-image: url("icon1.png")
+  }
+  .nav-link:hover {
+    color: white !important;
+  }
+  .header-link {
+    margin-left: 0px !important;
+    background-color: #f44647 !important;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    padding-top: 8px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .navbar-toggler{
+  border: none !important;
+  }
+  .header-link:hover {
+    background-color: #333333;
+  }
+  .img-logo{
+    width: 40px !important;
+  }
+  .brand-name {
+    color: #f44647;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 0px;
+  } */
+}
+.navbar-light .navbar-toggler-icon{
+  background-image:url("icon1.png") !important;
+}
+.img-logo{
+  width: 50px;
+}
+@media screen and (min-width: 990px) and (max-width: 1400px) {
+  /* .header-link {
+    margin-left: 0px !important;
+    font-size: 14px !important;
+  }
+  .brand-name {
+    padding-left: 3px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 0px !important;
+  } */
+}
+#header-nav {
+  margin: auto !important;
+  }
+  .header-img {
+    width: 60px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: 75px;
+  }
+  .top-navbar {
+    background-color: #333333;
+    color: white;
+    padding: 6px 0px 6px 0px;
+    padding-left: 110px;
+    padding-right: 110px;
+    display: flex;
+  }
+  .info {
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    text-shadow: 2px 2px 4px #1e1e1ec2 !important;
+    font-size: 16px;
+  }
+  .login-btn {
+    color: white;
+    font-size: 17px;
+    text-align: right !important;
+  }
+  .login-icon{
+    color: white !important;
+    padding-right: 5px;
+    font-size: 17px;
+  }
+  .reg-btn {
+    background-color: rgb(81, 183, 81);
+    color: white;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+  }
+  .header-link {
+    margin-left: 50px;
+    color: rgba(0,0,0,.55);
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 17px !important;
+  }
+  .header-link:hover {
+    color: #f44647 !important;
+  
+  }
+  .off -header {
+    background-color: rgba(28, 48, 75, 0.372) !important;
+    color: white !important;
+  }
+  .header-logo {
+    color: white !important;
+    font-size: 100px !important;
+  }
+  .header {
+    background-color: rgb(255, 255, 255) !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  }
+  .nav-brand {
+    color: white !important;
+    font-size: 60px !important;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #1e1e1ec2;
+    font-family:sans-serif !important;
+  }
+  .nav-title{
+    font-size: 25px !important;
+    color: #f44647;
+    font-weight: 600; 
+  }
+  .navbar-toggler:focus{
+    outline: none !important;
+    box-shadow:none !important;
+    color: #f44647;
+    text-decoration:none !important;
+  }
+  @media screen and (min-width: 353px) and (max-width: 990px) {
+    .nav-title{
+      font-size: 20px !important;
+    }
+    .header-img {
+      width: 50px;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+      height: 65px;
+    }
+    #header-nav {
+      margin-left: 0px !important;
+    }
+    .header-link {
+      margin-left: 0px !important;
+      background-color: #f44647;
+      color: rgb(255, 255, 255) !important;
+      text-decoration: none;
+      padding-top: 8px;
+      margin-top: 5px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .navbar-toggler{
+    border: none !important;
+    color: #f44647;
+    }
+    .header-link:hover {
+      background-color: rgba(255, 255, 255, 0.986);
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+    .top-navbar {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 12px;
+      display: flex;
+    }
+    .info {
+      font-size: 13px;
+      padding-left: 10px;
+    }
+  
+    .login-btn {
+      font-size: 12px;
+    }
+    .login-icon{
+      font-size: 15px;
+    }
+    .header {
+      background-color: rgb(238, 238, 238) !important;
+      border-bottom: solid;
+      border-color: white;
+      color: rgb(239, 239, 239);
+      border-width: 1px;
+      padding-bottom: 20px !important;
+      padding-top: 10px !important;
+    }
+    .nav-brand {
+      color: rgb(32, 38, 80) !important;
+      text-shadow: none;
+      font-size: 58px !important;
+    }
+  }
+  @media screen and (min-width: 990px) and (max-width: 1200px) {
+    .header-link {
+      margin-left: 30px;
+    }
+    .header {
+      background-color: rgba(242, 242, 242, 0.603);
+      padding-bottom: 20px !important;
+      padding-top: 10px !important;
+      color: rgb(255, 255, 255) !important;
+    }
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .header {
+      background-color: rgba(242, 242, 242, 0.603);
+      padding-bottom: 20px !important;
+      padding-top: 10px !important;
+      color: rgb(255, 255, 255) !important;
+    }
+  }
+  @media screen and (min-width: 1400px) and (max-width: 1920px) {
+    .header {
+      background-color: rgba(242, 242, 242, 0.603);
+      padding-bottom: 20px !important;
+      padding-top: 10px !important;
+      color: rgb(255, 255, 255) !important;
+    }
+  }
+  

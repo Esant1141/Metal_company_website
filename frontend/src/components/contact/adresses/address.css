@@ -1,0 +1,71 @@
+.addresss {
+padding: 10px 10px 10px 10px;
+  color:#333333;
+  /* margin: 10px 10px 10px 10px; */
+  /* width: 80% !important; */
+}
+.address-container{
+  background-color: #fbfbfb;
+  /* background-image: url(new2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% ;
+    width: 100%;
+    height: fit-content;
+    color: white; */
+    color: white;
+}
+.address-row{
+    padding-bottom: 50px;
+    /* background-color: rgba(0, 0, 0, 0.447); */
+}
+.add-col{
+  padding:10px 30px 50px 30px !important;
+  background-color: #333333;
+}
+.add-col1{
+  padding:10px 10px 10px 10px !important;
+  background-color: #f44647;
+}
+.address-name{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.address-description{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+#address-icons{
+   font-size: 60px !important;
+}
+#address-icons:hover{
+/* color: rgb(188, 2, 2); */
+cursor: pointer;
+}
+.add-img-div{
+    width:70px;
+    margin: auto;
+    height:50px;
+    margin-top: 50px;
+}
+/* .card-icon1 {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+  height: 100px;
+    color: white;
+    padding-top: 30px;
+    margin: auto;
+  } */
+  .card-menu {
+    padding-top: 20px;
+  }
+  @media screen and (min-width: 353px) and (max-width: 600px) {
+    .address-row{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 50px;
+      
+  }
+  }

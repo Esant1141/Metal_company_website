@@ -1,0 +1,38 @@
+*{
+  font-family: "Segoe UI", Arial, Helvetica, Sans Serif;
+}
+.link-ul {
+  list-style: none;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+.link-ul1 {
+  list-style: none;
+  padding-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+}
+.ul-video2{
+  background-color: white;
+padding-top: 20px;
+}
+.ul-row1{
+  background-color: rgb(250, 250, 250);
+  color: black;
+  padding: 50px 80px 50px 80px;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .ul-video2{
+    background-color: white;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  }
+  .ul-row1{
+    background-color: rgb(250, 250, 250);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+}
